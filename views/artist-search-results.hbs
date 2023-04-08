@@ -1,0 +1,17 @@
+<h1>Artist Search Results:</h1>
+
+<ul>
+    {{#each this.items}}
+    <li>
+        <h3>{{name}}</h3>
+        <img src="{{this.images.[0].url}}" alt="">
+        <audio controls src="{{preview_url}}">
+            <a href="{{preview_url}}">
+                Download audio
+            </a>
+        </audio>
+        <button><a href="/albums/{{id}}">View Albums</a></button>
+    </li>
+    {{/each}}
+</ul>
+

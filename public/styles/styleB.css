@@ -1,0 +1,40 @@
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/images/spotify-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  
+  #WhiteBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.461);
+    width: 40rem;
+    height: 10rem;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #SearchButton {
+    color: white;
+    background-color: rgb(248, 51, 51);
+      border: none;
+      padding: 2px 5px 2px 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer;
+      outline: inherit;
+  }

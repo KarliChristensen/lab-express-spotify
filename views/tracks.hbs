@@ -1,0 +1,15 @@
+{{#each items}}
+  <tr>
+  <th>
+  <h2>{{this.track_number}}. {{this.name}}</h2>
+  </th> 
+  <th>
+  <audio controls>
+    <source src="{{this.preview_url}}" />
+  </audio>
+
+  </th>
+
+  </tr>
+{{/each}}
+</table>
